@@ -76,7 +76,7 @@ def status(stat):
 def russian_roulette():
     global current_chamber
 
-    input("Press enter to push the trigger.")
+    input("Press enter to pull the trigger.")
 
     if current_chamber == bullet_chamber:
         return True

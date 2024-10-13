@@ -86,7 +86,7 @@ def sendAndRecieve(msgs) -> None:
 def russian_roulette():
     global current_chamber
 
-    input("Press enter to push the trigger.")
+    input("Press enter to pull the trigger.")
     
     if bullet_chamber == current_chamber:
         return True

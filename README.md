@@ -54,6 +54,9 @@ This game is designed for **virtual machines** only. If you lose while running t
    
 **4. Enjoy (or regret) playing.**
 
+## Possible modifications:
+Handle errors if the players disconnect. player1 file contains `tryAgain()` function that retries until both the players connect.
+
 ## Disclaimer:
 This project is intended for educational and testing purposes only. The game is designed to demonstrate the risks of tampering with system files and performing dangerous operations. Do not play this game on a physical machine or any important system.
 

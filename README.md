@@ -36,7 +36,7 @@ This game is designed for **virtual machines** only. If you lose while running t
 **1. Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/mbr-roulette.git
+   git clone https://github.com/FireBolt393/mbr-roulette.git
    cd mbr-roulette
    ```
 
